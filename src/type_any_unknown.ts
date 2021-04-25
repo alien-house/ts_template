@@ -4,7 +4,7 @@
 
 let a: unknown = 30
 let b = a === 123
-let c = a + 10 //エラー 型は'unknown'では
+let c = a + 10 //エラー 型は'unknown'ではない
 if(typeof a === 'number') {
     let d = a + 10
 }
