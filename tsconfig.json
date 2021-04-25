@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015"], //実行時、tscがどのAPIが存在しているかを想定すべきか
+        "module": "commonjs",//どのモジュールシステムにコンパイルするか
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015"//どのjsバージョン（ES3、ES5など）にコンパイルするか
+    },
+    //TSCがtsファイルを見つけるため、どのフォルダを探すべきか
+    "include": [
+        "src"
+    ]
+}
