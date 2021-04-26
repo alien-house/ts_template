@@ -8,4 +8,3 @@ let c = a + 10 //エラー 型は'unknown'です。
 if(typeof a === 'number') {
     let d = a + 10
 }
-
