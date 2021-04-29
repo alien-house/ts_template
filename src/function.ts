@@ -23,3 +23,22 @@ function log(message: string, userId?:string, userId2 = 'Not in') {
 
 
 
+/**
+ * ジェネレーター・いてレーター
+ * 一連の値を生成するための便利な方法
+ * 
+ */
+
+function* createFibonacciGenerator() {
+
+}
+
+/**
+ * 呼び出しシグネチャ・型シグネチャ
+ * 関数の型。
+ * 関数を引数として渡す場合や、関数を別の関数から返す場合に必要。
+ * 
+ */
+
+//function greet(name:string)
+type Greet = (name:string) => string
